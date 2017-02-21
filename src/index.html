@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Фитнес клуб</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+	<link rel="stylesheet" type="text/css" href="style/vendor.css"/>
+	<link rel="stylesheet" type="text/css" href="style/main.min.css">
+</head>
+<body>
+<div id="wraper">
+	<!-- *********** HEADER *********** -->
+	<div class="header">
+		<div class="header__logo">
+			<a class="logo" href="">Fitness</a>
+		</div>
+		<div class="header__menu">
+			<ul id="menu" class="nav">
+				<li class="nav__item">
+					<a class="nav__link" href="#services">Услуги</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="#coach">Тренера</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="#cards">Клубные карты</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="#scroll-map">Карта проезда</a>
+				</li>
+			</ul>
+		</div>
+		<div class="contact">
+			<a class="contact__number" href="">8 (918) 144-42-14</a>
+			<a class="contact__btn open_modal" href="#callback">Заказать звонок!</a>
+		</div>
+	</div>
+	<!-- *********** END HEADER *********** -->
+
+	<!-- *********** SLIDER ********* -->
+	<div class="slider">
+		<div class="slider__inner">
+			<div class="slider__item item slider-1">
+				<h1 class="item__title">Современный фитнес клуб</h1>
+				<p class="item__text" class="">в центре Волгограда</p>
+			</div>
+			<div class="slider__item item slider-2">
+				<p class="item__title">МЫ КРЕПКАЯ ПРОФЕССИОНАЛЬНАЯ КОМАНДА</p>
+				<p class="item__text">индивидуальный подход и хорошая атмосфера</p>		
+			</div>
+		</div>
+		<div class="slider__arrows"></div>
+	</div>
+	<!-- *********** END SLIDER ********* -->
+
+	<!-- ****** SERVECES ******** -->
+	<div id="services" class="services">
+		<p class="services__header">Наши услуги</p>
+		<div class="services__list">
+			<div class="services__item services__item-1">
+				<div class="inner">
+					<p class="inner__title">Тренажерный зал</p>
+					<p class="inner__text">Cпециально оборудованное помещение, оснащенное различными тренажёрами для занятий спортом. В фитнес-клубе можно найти инструктора, который составит индивидуальную программу оздоровления и укрепления организма.</p>
+				</div>
+			</div>
+			<div class="services__item services__item-2">
+				<div class="inner">
+					<p class="inner__title">Пилатес</p>
+					<p class="inner__text">Пилатес укрепляет мышцы пресса, улучшает баланс и координацию, а также снижает стресс. Упражнения пилатеса безопасны и подходят для широкого возрастного спектра</p>
+				</div>
+			</div>
+			<div class="services__item services__item-3">
+				<div class="inner">
+					<p class="inner__title">Стрейчинг</p>
+					<p class="inner__text">Название говорит само за себя - это особый вид аэробики, направленный главным образом на растяжку мышц тела, развитие гибкости и эластичности. Заниматься стретчингом можно в любом возрасте, независимо от имеющегося уровня подготовки.</p>
+				</div>
+			</div>
+			<div class="services__item services__item-4">
+				<div class="inner">
+					<p class="inner__title">Детские секции</p>
+					<p class="inner__text">Cпециально оборудованное помещение, оснащенное различными тренажёрами для занятий спортом. В фитнес-клубе можно найти инструктора, который составит индивидуальную программу оздоровления и укрепления организма.</p>
+				</div>
+			</div>
+			<div class="services__item services__item-5">
+				<div class="inner">
+					<p class="inner__title">Груповые тренировки</p>
+					<p class="inner__text">В процессе занятий длительное время задействуют различные группы мышц, все упражнения проделываются в очень активном темпе. В результате этого сердце бьется быстрее и весь организм насыщается кислородом.</p>
+				</div>
+			</div>
+			<div class="services__item services__item-6">
+				<div class="inner">
+					<p class="inner__title">Зал единоборств</p>
+					<p class="inner__text">специальные комплексы техник и приемов для самозащиты. Владение каким-либо единоборством считается лучшим способом выйти победителем в схватке с оппонентом.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ****** END SERVECES ******** -->
+
+	<!-- ********* ADVANTAGES ********* -->
+	<div class="advantages">
+		<p class="advantages__header">Преимущества занятий фитнеса у нас</p>
+		<p class="advantages__text">Клуб стал для многих местом, которое можно сравнить с домом. Ведь три раза в неделю, минимум по часу, наши клиенты проводят в клубе! У нас занимаются целыми семьями, компаниями друзей и коллег, благодаря этому, в клубе царит особая уютная атмосфера, которая поможет вам отвлечься от повседневных забот</p>
+		<div class="advantages__list">
+
+			<div class="advantages__item advantages__item-1">
+				<p class="advantages__item_text">Большой тренажерный зал с высокими потолками(12м), кардиозона</p>
+			</div>
+			<div class="advantages__item advantages__item-2">
+				<p class="advantages__item_text">Находимся в самом центре города</p>
+			</div>
+			<div class="advantages__item advantages__item-3">
+				<p class="advantages__item_text">Два современных зала для групповых программ с необходимым оборудованием</p>
+			</div>
+			<div class="advantages__item advantages__item-4">
+				<p class="advantages__item_text">Зал единоборств оснащенный всем необходимым</p>
+			</div>
+			<div class="advantages__item advantages__item-5">
+				<p class="advantages__item_text">Бар со спортивным питанием и напитками</p>
+			</div>
+		</div>
+	</div>
+	<!-- ********* END ADVANTAGES ********* -->
+
+	<!-- ******* OUR COACH ******** -->
+	<div id="coach" class="coach">
+		<p class="coach__header">Наши тренера</p>
+		
+		<div class="coach__slider">
+			<div class="coach__inner">
+				<div class="coach_slider__item coach-1">
+					<img class="coach_item__photo" src="img/coach.png" alt="">
+					<p class="coach_item__name">Имя фамилия</p>
+					<p class="coach_item__status">мастер тренер тренажерного зала</p>
+				</div>
+				<div class="coach_slider__item coach-1">
+					<img class="coach_item__photo" src="img/coach.png" alt="">
+					<p class="coach_item__name">Имя фамилия</p>
+					<p class="coach_item__status">мастер тренер тренажерного зала</p>
+				</div>
+				<div class="coach_slider__item coach-1">
+					<img class="coach_item__photo" src="img/coach.png" alt="">
+					<p class="coach_item__name">Имя фамилия</p>
+					<p class="coach_item__status">мастер тренер тренажерного зала</p>
+				</div>
+				<div class="coach_slider__item coach-1">
+					<img class="coach_item__photo" src="img/coach.png" alt="">
+					<p class="coach_item__name">Имя фамилия</p>
+					<p class="coach_item__status">мастер тренер тренажерного зала</p>
+				</div>
+				<div class="coach_slider__item coach-1">
+					<img class="coach_item__photo" src="img/coach.png" alt="">
+					<p class="coach_item__name">Имя фамилия</p>
+					<p class="coach_item__status">мастер тренер тренажерного зала</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ******* END OUR COACH ******** -->
+	
+	<!-- ******** CLUB CARDS ********* -->
+	<div id="cards" class="cards">
+		<p class="cards__header">Клубные карты</p>
+		<p class="cards__title">В клубную карту входит</p>
+		<div class="cards__inner">
+			<ul class="cards__items">
+				<li class="cards__list">Посещение клубов с 7:00 до 24:00</li>
+				<li class="cards__list">Две вводные персональные тренировки</li>
+				<li class="cards__list">Студия Cycle, TRX</li>
+				<li class="cards__list">Тренажерный зал с кардио и силовыми тренажерами</li>
+				<li class="cards__list">Wi-Fi</li>
+			</ul>
+			<ul class="cards__items">
+				<li class="cards__list">Более 40 групповых программ</li>
+				<li class="cards__list">Питьевая вода</li>
+				<li class="cards__list">Сауна</li>
+				<li class="cards__list">Бесплатная парковка</li>
+			</ul>
+		</div>
+		<a href="#free" class="cards__btn open_modal">Записаться на бесплатное занятие</a>
+	</div>
+	<!-- ******** END CLUB CARDS ********* -->
+	
+	<!-- ********* GALLERY ********* -->
+	<div class="gallery">
+		<p class="gallery__header">Галерея фотографий</p>
+		
+		<div class="gallery__slider">
+			<div class="gallery__inner">
+				<div class="gallery_slider__item coach-1">
+					<img class="gallery_item__photo" src="img/g-photo-1.jpg" alt="">
+				</div>
+				<div class="gallery_slider__item coach-1">
+					<img class="gallery_item__photo" src="img/g-photo-2.jpg" alt="">
+				</div>
+				<div class="gallery_slider__item coach-1">
+					<img class="gallery_item__photo" src="img/g-photo-3.jpg" alt="">
+				</div>
+				<div class="gallery_slider__item coach-1">
+					<img class="gallery_item__photo" src="img/g-photo-4.jpg" alt="">
+				</div>
+				<div class="gallery_slider__item coach-1">
+					<img class="gallery_item__photo" src="img/g-photo-5.jpg" alt="">
+				</div>
+				<div class="gallery_slider__item coach-1">
+					<img class="gallery_item__photo" src="img/g-photo-6.jpg" alt="">
+				</div>
+				<div class="gallery_slider__item coach-1">
+					<img class="gallery_item__photo" src="img/g-photo-7.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ********* END GALLERY ********* -->
+	
+	<!-- ********* MAP ******** -->
+	<div id="scroll-map" class="map">
+		<p class="map__header">Карта проезда</p>
+
+		<div id="map" class="map__map"></div>
+	</div>
+	<!-- ********* END MAP ******** -->
+	
+	<!-- ******** FOOTER ******* -->
+	<div class="footer">
+		<div class="footer__inner">
+			<p class="footer__adress">FitnessClub Volgograd</p>
+			<p class="footer__number">8 (918) 144-42-14</p>
+		</div>
+	</div>
+	<!-- ******** END FOOTER ******* -->
+</div>
+
+<!-- ******* LEFT MENU ****** -->
+	<div id="hamburger" class="hamburger">
+		<span class="line one"></span>
+		<span class="line two"></span>
+		<span class="line three"></span>
+	</div>
+
+	<div id="left-menu" class="left-menu">
+		<ul class="left-menu__nav">
+			<li class="nav__item">
+				<a class="nav__link left-menu__link" href="#services">Услуги</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link left-menu__link" href="#coach">Тренера</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link left-menu__link" href="#cards">Клубные карты</a>
+			</li>
+			<li class="nav__item">
+				<a class="nav__link left-menu__link" href="#scroll-map">Карта проезда</a>
+			</li>
+		</ul>
+	</div>
+<!-- ******* END LEFT MENU ****** -->
+
+
+<div id="overlay"></div><!-- Пoдлoжкa -->
+
+<div id="callback" class="modal modal-callback"><!-- Сaмo oкнo --> 
+    <span id="modal_close" class="modal__close"></span> <!-- Кнoпкa зaкрыть --> 
+    <p class="modal__title">Закажите обратный звонок!</p>
+    <p class="modal__text">И мы ответим на все ваши вопросы.</p>
+    <form action="" method="POST" class="modal__form">
+    	<input type="hidden" name="subject" value="Обратный звонок">
+    	<input class="number_input" type="text" name="number" placeholder="Введите номер" required="">
+    	<input class="submit_input" type="submit" name="submit" value="Отправить">
+    </form>
+</div>
+<div id="free" class="modal modal-free">
+    <span id="modal_close" class="modal__close"></span> 
+    <p class="modal__title">Запишитесь на бесплатное занятие уже сейчас!</p>
+    <p class="modal__text">Оставьте свои данные и мы ответим на ваши вопросы.</p>
+    <form action="" method="POST" class="modal__form">
+    	<input type="hidden" name="subject" value="Записаться на бесплатное занятие">
+    	<input class="free__name_input" type="text" name="name" placeholder="Введите имя" required="">
+    	<input class="free__number_input" type="text" name="number" placeholder="Введите номер" required="">
+    	<input class="submit_input" type="submit" name="submit" value="Отправить">
+    </form>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="js/vendor.js"></script>
+
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<svg id="sprite-arrows" xmlns="http://www.w3.org/2000/svg" width="60" height="122" viewBox="0 0 60 122">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #393939;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #aaa;
+      }
+    </style>
+  </defs>
+  <path id="Shape-right-hover" class="cls-1" d="M31,63A30,30,0,1,0,61,93,30,30,0,0,0,31,63Zm-3.7,46.891L24.5,107.1,38.555,93,24.5,78.9l2.8-2.793L44.14,93Z" transform="translate(-1 -1)"/>
+  <path id="Shape-right" class="cls-2" d="M31,1A30,30,0,1,0,61,31,30,30,0,0,0,31,1ZM27.3,47.891L24.5,45.1,38.555,31,24.5,16.9l2.8-2.793L44.14,31Z" transform="translate(-1 -1)"/>
+</svg>
